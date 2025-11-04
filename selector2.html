@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+        #box p {
+            color: green;
+        } 
+        /* #box > p {
+            color: orange;
+        /* } */
+        #box ~  p { color:aqua;}
+        #box + p {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <p>lorem ipsum dolor sit amet consectetur  </p>
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <p>lorem ipsum dolor sit amet consectetur  </p>
+                    </td>
+                </tr>
+            </table>
+            <p>lorem ipsum dolor sit amet consectetur  </p>
+        </div>
+    </div>
+    <div>
+        <p>lorem ipsum color sit amet consectetur </p>
+    </div>
+</body>
+</html>
