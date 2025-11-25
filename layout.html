@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        /* body {
+            background-color: lightblue;
+        }
+        html,* {
+        
+            box-sizing: inherit;
+        }
+        #para {
+            color: red;
+            font-size: 20px;
+        }
+        p{
+            color: green;
+            display: inline-block;
+    }
+    img{
+        border:2px solid black;
+        float:left
+    } */
+    main{
+        width:900px;
+        height:auto;
+        margin: 0 auto;
+        background: blue;
+        display:flex;
+        flex-wrap: wrap;
+        gap:10px;
+        justify-content: space-evenly ;
+        align-items: baseline;
+    }
+    .box{
+        width:200px;
+        height:200px;
+        background-color: coral;
+        
+
+        
+    }
+    section{
+        width:900px;
+        height:300px;
+        background-color:aqua;
+        margin:10px auto;
+        display:flex;
+        gap:10px;
+    }
+    #left{
+        flex-grow: 1;
+        background-color: lightgreen;
+    }
+    #right{
+        flex-grow: 2;
+        background-color: thistle;
+    }
+    </style>
+</head>
+<body>
+    <!-- <img src="pexels-eberhardgross-1367192.jpg" alt="A scenic view">
+    <p>
+        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <p id="para">
+        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p> -->
+    <main>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+        <div class="box">11</div>
+        <div class="box">12</div>
+        <div class="box">13</div>
+        <div class="box">14</div>
+        <div class="box">15</div>
+        <div class="box" style="height:320px;">16</div>
+
+
+
+    </main>
+    <section>
+        <div id="left">left</div>
+        <div id="right">right</div>
+    </section>
+</body>
+</html>
